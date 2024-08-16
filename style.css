@@ -426,10 +426,38 @@ footer{
     width: 50vw;
 }
 
+#new_Nav img{
+    height: 3vw;
+    display: none;
+}
+
+#new_Nav i{
+    font-size: 3vw;
+    display: none;
+}
+
+#new_Nav{
+    display: none;
+}
+
 @media (max-width:955px) {
     nav{
         display: none;
     }
+    #new_Nav img{
+        height: 3vw;
+        display: block;
+    }
+    
+    #new_Nav i{
+        font-size: 3vw;
+        display: block;
+    }
+    
+    #new_Nav{
+        display: block;
+    }
+
     #page h1{
         font-size: 8vw;
     }
@@ -717,10 +745,3 @@ footer{
     padding: 3vw 4vw;
 }
 
-#new_Nav img{
-    height: 3vw;
-}
-
-#new_Nav i{
-    font-size: 3vw;
-}
